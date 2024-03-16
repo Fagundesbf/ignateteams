@@ -1,20 +1,37 @@
+//Modo 1
+// import { StyleSheet, View, Text } from "react-native";
 
-import { StyleSheet, View, Text } from "react-native";
+//Modo2
+import { Container, Title } from "./styles";
+//Modo 2 ALIAS
+// import * as S from  "./styles";
+
 
 export  function Groups(){
     return (
-        <View style={styles.container}>
-            <Text> Groups</Text>
-        </View>
-    )
-}
+        //Modo 1
+        //     <View style={styles.container}>
+        //         <Text style={styles.text}> Groups</Text>
+        //     </View>
 
+        //Modo 2
+        <Container>
+            <Title> Groups</Title>
+        </Container>
 
-const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-  })
+        //Modo 2 AlIAS
+        // <S.ContainerContainer>
+        //     <S.Title> Groups</S.Title>
+        // </S.Container>
+
+    )}
+
+//Modo 1
+// const styles = StyleSheet.create({
+//     container: {
+//     },
+//     text: { 
+//         color:'#fff',
+//         fontSize: 32
+//     }
+//   })
