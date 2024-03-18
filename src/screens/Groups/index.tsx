@@ -2,7 +2,7 @@
 // import { StyleSheet, View, Text } from "react-native";
 
 //Modo2
-import { Container, Title } from "./styles";
+import { Container } from "./styles";
 //Modo 2 ALIAS
 // import * as S from  "./styles";
 
@@ -15,8 +15,11 @@ export  function Groups(){
         //     </View>
 
         //Modo 2
-        <Container>
-            <Title> Groups</Title>
+        // <Container>
+        //     <Title> Groups</Title>
+        // </Container>
+          <Container>
+            {/* <Title> Groups</Title> */}
         </Container>
 
         //Modo 2 AlIAS
